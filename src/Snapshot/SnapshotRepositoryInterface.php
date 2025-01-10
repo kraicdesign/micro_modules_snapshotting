@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MicroModule\Snapshotting\Snapshot;
+namespace DddModule\Snapshotting\Snapshot;
 
 interface SnapshotRepositoryInterface
 {

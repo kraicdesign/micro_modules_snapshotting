@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace MicroModule\Snapshotting\Tests\Unit\Snapshot\Trigger;
+namespace DddModule\Snapshotting\Tests\Unit\Snapshot\Trigger;
 
-use MicroModule\Snapshotting\EventSourcing\Testing\TestEventSourcedAggregateRoot;
-use MicroModule\Snapshotting\Snapshot\Trigger\EventCountTrigger;
+use DddModule\Snapshotting\EventSourcing\Testing\TestEventSourcedAggregateRoot;
+use DddModule\Snapshotting\Snapshot\Trigger\EventCountTrigger;
 use PHPUnit\Framework\TestCase;
 use stdClass;
 

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace MicroModule\Snapshotting\EventSourcing;
+namespace DddModule\Snapshotting\EventSourcing;
 
-use MicroModule\Snapshotting\Snapshot\Snapshot;
-use MicroModule\Snapshotting\Snapshot\SnapshotRepositoryInterface;
-use MicroModule\Snapshotting\Snapshot\TriggerInterface;
+use DddModule\Snapshotting\Snapshot\Snapshot;
+use DddModule\Snapshotting\Snapshot\SnapshotRepositoryInterface;
+use DddModule\Snapshotting\Snapshot\TriggerInterface;
 use Broadway\Domain\AggregateRoot;
 use Broadway\EventSourcing\EventSourcedAggregateRoot;
 use Broadway\EventSourcing\EventSourcingRepository;

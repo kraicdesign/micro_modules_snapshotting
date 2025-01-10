@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MicroModule\Snapshotting\EventSourcing\Testing;
+namespace DddModule\Snapshotting\EventSourcing\Testing;
 
 use Broadway\EventSourcing\EventSourcedAggregateRoot;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace MicroModule\Snapshotting\Snapshot;
+namespace DddModule\Snapshotting\Snapshot;
 
 interface ShouldNotSnapshot
 {

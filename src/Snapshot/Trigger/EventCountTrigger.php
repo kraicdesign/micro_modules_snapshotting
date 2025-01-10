@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace MicroModule\Snapshotting\Snapshot\Trigger;
+namespace DddModule\Snapshotting\Snapshot\Trigger;
 
-use MicroModule\Snapshotting\Snapshot\ShouldNotSnapshot;
-use MicroModule\Snapshotting\Snapshot\TriggerInterface;
+use DddModule\Snapshotting\Snapshot\ShouldNotSnapshot;
+use DddModule\Snapshotting\Snapshot\TriggerInterface;
 use Broadway\EventSourcing\EventSourcedAggregateRoot;
 
 class EventCountTrigger implements TriggerInterface

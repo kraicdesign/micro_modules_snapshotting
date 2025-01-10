@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace MicroModule\Snapshotting\EventSourcing;
+namespace DddModule\Snapshotting\EventSourcing;
 
-use MicroModule\Base\Domain\Exception\CriticalException;
+use DddModule\Base\Domain\Exception\CriticalException;
 
 /**
  * Class SnapshottingEventSourcingRepositoryException.

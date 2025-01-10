@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace MicroModule\Snapshotting\Snapshot;
+namespace DddModule\Snapshotting\Snapshot;
 
-use MicroModule\Snapshotting\EventSourcing\AggregateAssemblerInterface;
-use MicroModule\Snapshotting\Snapshot\Storage\SnapshotNotFoundException;
-use MicroModule\Snapshotting\Snapshot\Storage\SnapshotStoreInterface;
+use DddModule\Snapshotting\EventSourcing\AggregateAssemblerInterface;
+use DddModule\Snapshotting\Snapshot\Storage\SnapshotNotFoundException;
+use DddModule\Snapshotting\Snapshot\Storage\SnapshotStoreInterface;
 use Assert\Assertion as Assert;
 use Broadway\Domain\DomainMessage;
 use Broadway\Domain\Metadata;

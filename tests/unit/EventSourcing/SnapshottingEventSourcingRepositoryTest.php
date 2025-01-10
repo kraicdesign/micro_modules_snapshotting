@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace MicroModule\Snapshotting\Tests\Unit\EventSourcing;
+namespace DddModule\Snapshotting\Tests\Unit\EventSourcing;
 
-use MicroModule\Snapshotting\EventSourcing\SnapshottingEventSourcingRepository;
-use MicroModule\Snapshotting\EventSourcing\Testing\TestEventSourcedAggregateRoot;
-use MicroModule\Snapshotting\Snapshot\Snapshot;
-use MicroModule\Snapshotting\Snapshot\SnapshotRepository;
-use MicroModule\Snapshotting\Snapshot\Trigger\EventCountTrigger;
+use DddModule\Snapshotting\EventSourcing\SnapshottingEventSourcingRepository;
+use DddModule\Snapshotting\EventSourcing\Testing\TestEventSourcedAggregateRoot;
+use DddModule\Snapshotting\Snapshot\Snapshot;
+use DddModule\Snapshotting\Snapshot\SnapshotRepository;
+use DddModule\Snapshotting\Snapshot\Trigger\EventCountTrigger;
 use Broadway\Domain\DomainEventStream;
 use Broadway\Domain\DomainMessage;
 use Broadway\Domain\Metadata;

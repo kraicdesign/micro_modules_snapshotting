@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace MicroModule\Snapshotting\EventSourcing;
+namespace DddModule\Snapshotting\EventSourcing;
 
-use MicroModule\ValueObject\ValueObjectInterface;
+use DddModule\ValueObject\ValueObjectInterface;
 
 /**
  * Interface AggregateAssemblerInterface.

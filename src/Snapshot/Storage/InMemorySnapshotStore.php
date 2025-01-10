@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MicroModule\Snapshotting\Snapshot\Storage;
+namespace DddModule\Snapshotting\Snapshot\Storage;
 
 use Broadway\Domain\DateTime;
 use Broadway\Domain\DomainMessage;

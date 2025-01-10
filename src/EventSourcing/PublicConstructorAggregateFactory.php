@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MicroModule\Snapshotting\EventSourcing;
+namespace DddModule\Snapshotting\EventSourcing;
 
 use Broadway\Domain\DomainMessage;
 use Broadway\EventSourcing\EventSourcedAggregateRoot;

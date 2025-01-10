@@ -1,12 +1,13 @@
-ARG PHP_VER
+ARG PHP_VER=8.3
 
-FROM php:8.0-cli-alpine3.13
+FROM php:${PHP_VER}-cli-alpine3.21
 
 RUN apk update
 RUN apk add --no-cache bash
 RUN apk add --no-cache build-base
 RUN apk add --no-cache autoconf
 RUN apk add --no-cache automake
+RUN apk add --update linux-headers
 
 RUN apk add --no-cache --upgrade bash && \
     apk add libpq zip unzip tree
